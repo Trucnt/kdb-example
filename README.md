@@ -6,14 +6,14 @@ KDB automation testing framework for web (desktop &amp; mobile) and mobile app (
 
 ### Creation of virtual environments (https://docs.python.org/3.11/library/venv.html)
 ```bash
-python -m venv "D:\python-venv\kdb-python"
+python -m venv "D:\kdb-examples\venv"
 ```
 
 ## Activating a virtual environment on Windows
 ```bash
 D:
-cd "D:\python-venv\kdb-python"
-.\Scripts\activate
+cd "D:\kdb-examples"
+.\venv\Scripts\activate
 where python
 ```
 
@@ -31,7 +31,7 @@ py -m pip install git+https://github.com/behave/behave@v1.2.7.dev5
 
 ### Installing using requirements files
 ```bash
-py -m pip install -r "D:\kdb-demo\requirements.txt"
+py -m pip install -r "D:\kdb-examples\requirements.txt"
 ```
 
 ## Running test: behave -i "<feature_file_name>" -D profile="<profile_name>"
