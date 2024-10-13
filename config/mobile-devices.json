@@ -1,0 +1,45 @@
+{
+  "devices": {
+    "android": {
+      "android_emulator_local": {
+        "avd": "Pixel_3a_API_34_extension_level_7_x86_64",
+        "udid": "emulator-5554",
+        "platformVersion": "15",
+        "deviceName": "Pixel_3a_API_34_extension_level_7_x86_64",
+        "appiumPort": 9010,
+        "systemPort": 9011,
+        "chromeDriverPort": 9012,
+        "mjpegServerPort": 9013,
+        "hubURL": "http://127.0.0.1:9010",
+        "sshUser": "",
+        "sshPassword": ""
+      },
+      "android_emulator_pixel_fold": {
+        "avd": "Pixel_Fold_API_35",
+        "udid": "emulator-5554",
+        "platformVersion": "15",
+        "deviceName": "Pixel_Fold_API_35",
+        "appiumPort": 9020,
+        "systemPort": 9021,
+        "chromeDriverPort": 9022,
+        "mjpegServerPort": 9023,
+        "hubURL": "http://192.168.1.63:9020",
+        "sshUser": "ssh",
+        "sshPassword": "12345678"
+      }
+    },
+    "ios": {
+      "simulator_dev": {
+        "udid": "1B35650A-1543-496F-A3D8-4DFA48E73244",
+        "platformVersion": "17.5",
+        "deviceName": "iPhone 15 Pro",
+        "appiumPort": 9110,
+        "wdaLocalPort": 9112,
+        "mjpegServerPort": 9113,
+        "hubURL": "http://10.172.3.66:9010",
+        "tmpDir": "/Users/user/Tmp/appium_iOS_9010",
+        "derivedDataPath": "/Users/user/Tmp/derived_9010"
+      }
+    }
+  }
+}

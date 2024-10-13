@@ -1,0 +1,10 @@
+{
+  "proxies": {
+    "fr": {"proxy": "210.247.253.111:3128", "noProxy":  "", "username": "", "password": ""},
+    "uk": {"proxy": "10.100.132.111:8011", "noProxy":  "", "username": "", "password": ""},
+    "au": {"proxy": "10.100.132.111:8012", "noProxy":  "", "username": "", "password": ""},
+    "ca": {"proxy": "10.100.132.111:8013", "noProxy":  "", "username": "", "password": ""},
+    "us": {"proxy": "173.192.21.89:80", "noProxy":  "", "username": "", "password": ""},
+    "jp": {"proxy": "10.100.132.111:8115", "noProxy":  "", "username": "", "password": ""}
+  }
+}
