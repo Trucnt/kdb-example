@@ -1,18 +1,18 @@
-# KDB Examples
+# KDB Example
 KDB automation testing framework for web (desktop &amp; mobile) and mobile app (android &amp; iOS)
 
 
-## Clone project from git (https://github.com/Trucnt/kdb-examples.git) to your disk. Ex: D:\kdb-examples
+## Clone project from git (https://github.com/Trucnt/kdb-example.git) to your disk. Ex: D:\kdb-example
 
 ### Creation of virtual environments (https://docs.python.org/3.11/library/venv.html)
 ```bash
-python -m venv "D:\kdb-examples\venv"
+python -m venv "D:\kdb-example\venv"
 ```
 
 ## Activating a virtual environment on Windows
 ```bash
 D:
-cd "D:\kdb-examples"
+cd "D:\kdb-example"
 .\venv\Scripts\activate
 where python
 ```
@@ -31,7 +31,7 @@ py -m pip install git+https://github.com/behave/behave@v1.2.7.dev5
 
 ### Installing using requirements files
 ```bash
-py -m pip install -r "D:\kdb-examples\requirements.txt"
+py -m pip install -r "D:\kdb-example\requirements.txt"
 ```
 
 ## Running test: behave -i "<feature_file_name>" -D profile="<profile_name>"
